@@ -1,0 +1,63 @@
+body {
+    font-family: Astrobia-K47W;
+    /* font-family: LittleOrionPersonalUseRegular-RpJ6V; */
+    background-image: url("bg2.jpg");
+    background-size: 2200px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    color: white;
+    border: 2px solid white;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+#box3, #box6 {
+    clear: left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message {
+    font-size: 40px;
+}
+
+#header {
+    font-size: 50px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.message {
+    font-size: 50px;
+    color: white;
+}
+
+#restart {
+    font-family: Astrobia-K47W;
+    font-size: 30px;
+    color: greenyellow;
+    background-color: transparent;
+    border: transparent;
+
+}
+
+@font-face {
+    font-family: LittleOrionPersonalUseRegular-RpJ6V;
+    src: url(LittleOrionPersonalUseRegular-RpJ6V.otf);
+}
+
+@font-face {
+    font-family: Astrobia-K47W;
+    src: url(Astrobia-K47W.ttf);
+}
